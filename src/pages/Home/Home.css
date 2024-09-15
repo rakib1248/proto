@@ -1,0 +1,93 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-family: swiper-icons;
+  font-size: 17px;
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  background-color: #000;
+  color: #fff;
+  padding: 4px 5px;
+  font-weight: bold;
+}
+svg.rs-panel-btn-icon.rs-icon.rs-icon {
+  display: none;
+}
+button#rs-\:r1\:-btn,
+button#rs-\:r5\:-btn,
+button#rs-\:r3\:-btn {
+  background-color: #e5e5ea;
+}
+.rs-panel-group > .rs-panel + .rs-panel::before {
+  display: none;
+}
+div#rs-\:r1\:-panel,
+div#rs-\:r3\:-panel,
+div#rs-\:r5\:-panel {
+  border: 11px solid #e5e5ea;
+  box-sizing: border-box !important;
+  margin-top: -18px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.bgcolor {
+  background-color: #d6c5c530;
+  position: relative;
+  bottom: 260px;
+}
+button.slick-arrow.slick-next,
+button.slick-arrow.slick-prev {
+  display: none !important;
+}
+
+.testimonial::before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 35px;
+  background-color: #0088cc;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+}
