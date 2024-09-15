@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home/Home";
-import Layout from "../layout/layout";
+import Layout from "../Layout/Layout";
 import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
 
@@ -35,11 +35,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/team",
-        element: <Team/>,
+        element: <Team />,
       },
       {
         path: "/team/:id",
-        element: <Teamsingle/>,
+        element: <Teamsingle />,
       },
     ],
   },
